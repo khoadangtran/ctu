@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Chọn thức uống:"
+        android:textColor="#070707"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/drink_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_drink"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/text_customer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drink_spinner"
+        android:layout_marginTop="16dp"
+        android:text="Tên khách hàng:"
+        android:textColor="#070707"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_customer_name"
+        android:layout_marginTop="8dp"
+        android:hint="Nhập tên khách hàng"/>
+
+
+    <TextView
+        android:id="@+id/text_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_name"
+        android:layout_marginTop="16dp"
+        android:text="Số lượng:"
+        android:textColor="#070707"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/quantity_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_quantity"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        android:hint="Nhập số lượng"/>
+
+    <Button
+        android:id="@+id/order_button"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantity_input"
+        android:layout_marginTop="16dp"
+        android:text="Đặt hàng"
+        android:textColorHighlight="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/order_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/order_button"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

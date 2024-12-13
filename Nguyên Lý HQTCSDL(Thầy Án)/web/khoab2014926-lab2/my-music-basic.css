@@ -1,0 +1,88 @@
+.nen {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    color:rgb(18, 145, 145);
+}
+
+body {
+    background: url("./assets/img/my-music-background.gif") ;
+}
+
+.background  {
+    border: 4px solid white;
+ 
+    padding: 5px;
+    background: url("./assets/img/music-flower.jpg");
+    background-color: white;
+}
+
+.khung1 {
+    /* border: 5px solid red; */
+    background: #A8F0F0;
+    text-align: end;
+    
+}
+
+.tieude2 {
+    /* border: 5px solid orange; */
+    margin: 5px;
+}
+
+.khung2 {
+    border: 4px solid rgb(0, 200, 255);
+    background:#C2E9E9;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 180px;
+}
+
+
+
+.ten {
+    display: inline;
+    /* border: 5px solid purple; */
+    margin: 5px;
+    border-bottom: 2px rgb(92, 193, 193) dashed;
+}
+
+.hinh {
+    weight: 50px;
+    height: 80px;
+    float: right;
+}
+
+.noidung1 {
+    color:rgb(52, 52, 92)
+}
+.khung3 {
+    border: 4px solid rgb(0, 200, 255);
+    background:#C2E9E9;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 180px;
+}
+.ten1 {
+    display: inline;
+    /* border: 5px solid purple; */
+    margin: 5px;
+    border-bottom: 2px rgb(92, 193, 193) dashed;
+}
+
+.hinh1 {
+    weight: 70px;
+    height: 80px;
+    float: right;
+}
+
+.link {
+    border:5px solid rgb(18, 145, 145);
+    border-radius: 10px;
+    float: left;
+    background-color: #b0ebeb;
+
+}
+
+.link a {
+    text-decoration: none;
+}
